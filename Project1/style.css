@@ -1,0 +1,259 @@
+/* Add padding to the top of sections to prevent overlap with fixed header */
+section {
+  padding-top: 100px; /* Adjust as needed based on the height of your fixed header */
+}
+
+/* Adjust z-index to ensure header appears above other elements */
+header {
+  z-index: 1000;
+}
+
+/* Rest of your CSS styles remain unchanged */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('https://wallpapersmug.com/large/82ac33/laptop-colorful-screen-dark.jpg');
+  /* Set background size to cover the entire viewport */
+  background-size: cover;
+  /* Center the background image vertically and horizontally */
+  background-position: center;
+  /* Ensure the background image stays fixed as the content scrolls */
+  background-attachment: fixed;
+  /* Add fallback background color */
+  background-color: #f8f8f8;
+  /* Set default font and margin */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgb(227, 223, 223);
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0; /* Stick the header to the top of the page */
+  width: 100%; /* Set the width to occupy the full width of the viewport */
+  background-color: #f1efef; /* Add a background color */
+}
+
+p {
+  padding-left: 50px; /* Adjust as needed */
+  padding-right: 500px;
+  font-size: medium;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  height: 70px;
+  background-color: rgb(141, 141, 235);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(18, 17, 17);
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  color: rgb(12, 12, 14);
+  /* for increasing font size of navigation elements */
+  font-size: 1.02rem;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 13vh 0;
+  align-items: center;
+  font-size: medium;
+}
+
+.firstsection > div {
+  width: 40%;
+}
+
+.leftsection {
+  font-size: 3rem;
+}
+
+.leftsection .buttons {
+  padding: 50px 0;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.leftsection .btn1,
+.btn2 {
+  padding: 15px 0;
+  background-color: #7f7fed;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.rightsection img {
+  width: 80%;
+  margin: 40px;
+}
+
+.text-purple {
+  color: rgb(138, 61, 210);
+}
+
+.text-gray {
+  color: rgb(250, 248, 248);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+}
+
+#element {
+  color: rgb(138, 61, 210);
+}
+
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 40vh;
+  font-size: medium;
+}
+
+.secondsection .box {
+  background: white;
+  width: 65vw;
+  height: 2px;
+  margin: 40px 0;
+  display: flex;
+  font-size: medium;
+}
+
+.secondsection .vertical {
+  height: 70px;
+  width: 1px;
+  background-color: white;
+  margin: 0px 160px;
+}
+
+.thirdsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+  font-size: large;
+}
+
+.thirdsection .box {
+  background: white;
+  width: 65vw;
+  height: 2px;
+  margin: 40px 0;
+  display: flex;
+  font-size: medium;
+}
+
+.thirdsection .vertical {
+  height: 70px;
+  width: 1px;
+  background-color: white;
+  margin: 0px 160px;
+  font-size: large;
+}
+
+main hr {
+  border: 0;
+  background-color: rgb(250, 252, 250);
+  height: 1.2px;
+  margin: 30px 82px;
+}
+
+.image-top {
+  height: 50px;
+  width: 90px;
+  position: relative;
+  top: -28px;
+  left: -15px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 55px;
+  width: 150px;
+  font-size: large;
+  color: #7f7fed;
+  text-decoration: underline;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 65px;
+  width: 150px;
+  font-size: medium;
+}
+
+.thirdsection .vertical-desc {
+  position: relative;
+  top: 65px;
+  width: 200px;
+  font-size: medium;
+}
+
+sup {
+  vertical-align: super;
+}
+
+footer {
+  background-color: #8888eb;
+}
+
+.footer {
+  display: flex;
+  padding: 15px 50px;
+  justify-content: space-evenly;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer>div {
+  width: 223px;
+}
+
+footer .footer-rights {
+  text-align: center;
+  color: rgb(234, 237, 229);
+  padding: 12px 0;
+}
+
+.footer img {
+  width: 30%;
+}
